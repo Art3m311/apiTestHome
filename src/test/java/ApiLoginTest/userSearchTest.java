@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 public class userSearchTest {
     private final static String URl_BASE = "https://petstore.swagger.io/v2/";
 
-    @Test (description = "Тест на получение ответа: 200 ОК")
+    @Test (description = "Тест на получение ответа: 200 ОК", enabled = false)
     public void getUserByName() {
         Response response =
                 given()

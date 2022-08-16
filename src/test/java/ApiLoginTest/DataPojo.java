@@ -23,7 +23,7 @@ public class DataPojo {
         this.userStatus = userStatus;
     }
 
-    public int getId() {
+    public int getId(){
         return id;
     }
 

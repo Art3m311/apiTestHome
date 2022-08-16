@@ -1,2 +1,6 @@
 ApiLoginTest/DataPojo.class
+ApiGetAllRoles/GetAllRolesTest.class
+PojoClasses/RespRolesBody.class
 ApiLoginTest/userSearchTest.class
+ApiGetAllRoles/TestBase.class
+PojoClasses/ReqAuthBody.class

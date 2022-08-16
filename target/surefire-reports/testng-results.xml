@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-11T22:21:56 MSK" name="Surefire suite" finished-at="2022-08-11T22:21:57 MSK" duration-ms="1395">
+  <suite started-at="2022-08-16T21:26:59 MSK" name="Surefire suite" finished-at="2022-08-16T21:27:00 MSK" duration-ms="1477">
     <groups>
     </groups>
-    <test started-at="2022-08-11T22:21:56 MSK" name="Surefire test" finished-at="2022-08-11T22:21:57 MSK" duration-ms="1395">
-      <class name="ApiLoginTest.userSearchTest">
-        <test-method signature="getUserByName()[pri:0, instance:ApiLoginTest.userSearchTest@646007f4]" started-at="2022-08-11T22:21:56 MSK" name="getUserByName" description="Тест на получение ответа: 200 ОК" finished-at="2022-08-11T22:21:57 MSK" duration-ms="1383" status="PASS">
+    <test started-at="2022-08-16T21:26:59 MSK" name="Surefire test" finished-at="2022-08-16T21:27:00 MSK" duration-ms="1477">
+      <class name="ApiGetAllRoles.GetAllRolesTest">
+        <test-method is-config="true" signature="login()[pri:0, instance:ApiGetAllRoles.GetAllRolesTest@8b87145]" started-at="2022-08-16T21:26:59 MSK" name="login" finished-at="2022-08-16T21:27:00 MSK" duration-ms="1064" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserByName -->
-      </class> <!-- ApiLoginTest.userSearchTest -->
+        </test-method> <!-- login -->
+        <test-method signature="getAllRoles_SC()[pri:0, instance:ApiGetAllRoles.GetAllRolesTest@8b87145]" started-at="2022-08-16T21:27:00 MSK" name="getAllRoles_SC" description="Проверка кода ответа 200" finished-at="2022-08-16T21:27:00 MSK" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllRoles_SC -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ApiGetAllRoles.GetAllRolesTest@8b87145]" started-at="2022-08-16T21:27:00 MSK" name="logout" finished-at="2022-08-16T21:27:00 MSK" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ApiGetAllRoles.GetAllRolesTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
